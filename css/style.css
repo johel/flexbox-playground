@@ -1,0 +1,28 @@
+body{
+	font-size:100px;
+}
+
+.purple{background-color: #a88;}
+.blue{background-color: blue;}
+.green{background-color: #0a0;}
+
+.container{
+	display:flex;
+	flex-direction:column;
+	align-content:center;
+	justify-content:center;
+	border:10px solid #ccc;
+	height:100vh;
+}
+
+.box{
+	text-align: center;
+}
+
+.box1{
+	flex:10 5 200px;
+}
+
+.box2{
+	flex:1 1 200px;
+}

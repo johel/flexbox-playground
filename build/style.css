@@ -1,0 +1,40 @@
+body{
+	font-size:100px;
+}
+
+.purple{background-color: #a88;}
+.blue{background-color: blue;}
+.green{background-color: #0a0;}
+
+.container{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	    -ms-flex-direction:column;
+	        flex-direction:column;
+	-ms-flex-line-pack:center;
+	    align-content:center;
+	-webkit-box-pack:center;
+	    -ms-flex-pack:center;
+	        justify-content:center;
+	border:10px solid #ccc;
+	height:100vh;
+}
+
+.box{
+	text-align: center;
+}
+
+.box1{
+	-webkit-box-flex:10;
+	    -ms-flex:10 5 200px;
+	        flex:10 5 200px;
+}
+
+.box2{
+	-webkit-box-flex:1;
+	    -ms-flex:1 1 200px;
+	        flex:1 1 200px;
+}
