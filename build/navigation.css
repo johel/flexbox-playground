@@ -1,0 +1,48 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+.wrapper{
+	width:100%;
+	background-color:#eaeaea;
+	margin:0 auto;
+	padding:10px;
+}
+
+.flex-nav{
+	border: 2px solid black;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:horizontal;
+	-webkit-box-direction:normal;
+	    -ms-flex-direction:row;
+	        flex-direction:row;
+	list-style-type: none;
+	-ms-flex-wrap:wrap;
+	    flex-wrap:wrap;
+}
+
+.flex-nav a{
+	-webkit-transition: color 0.5s ease;
+	transition: color 0.5s ease;
+	text-decoration: none;
+}
+
+.flex-nav a:hover{
+		color: red;
+}
+
+.flex-nav li{
+	-webkit-box-flex:3;
+	    -ms-flex:3;
+	        flex:3;
+}
+
+.flex-nav .social{
+	-webkit-box-flex:1;
+	    -ms-flex:1;
+	        flex:1;
+}

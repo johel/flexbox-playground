@@ -1,0 +1,37 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+.wrapper{
+	width:100%;
+	background-color:#eaeaea;
+	margin:0 auto;
+	padding:10px;
+}
+
+.flex-nav{
+	border: 2px solid black;
+	display:flex;
+	flex-direction:row;
+	list-style-type: none;
+	flex-wrap:wrap;
+}
+
+.flex-nav a{
+	transition: color 0.5s ease;
+	text-decoration: none;
+}
+
+.flex-nav a:hover{
+		color: red;
+}
+
+.flex-nav li{
+	flex:3;
+}
+
+.flex-nav .social{
+	flex:1;
+}
