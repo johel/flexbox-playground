@@ -22,13 +22,14 @@ body{
 	list-style: none;
 	display:flex;
 	/*border:2px solid green;*/
-	
+	/*justify-content: center;*/
 }
 
 .nav-item{
 	/*display:block;*/
 	flex:1;
 	/*border: 1px solid green;*/
+	text-align: center;
 }
 
 .nav-item a:link,
@@ -45,6 +46,26 @@ body{
 	color:#0854C7;
 }
 
+
+/* Small phones to small tablets: from 481px to 767px */
+@media all and (max-width: 767px) {
+	.nav-list{
+		flex-wrap:wrap;
+	}
+
+	.nav-item{
+		/*border: 2px solid #EDEDF4;*/
+		flex: 1 1 50%;
+		margin-top:10px;
+	}
+}
+
+/* Small phones: from 0 to 480px */
+@media all and (max-width: 481px) {
+	.nav-item{
+		flex: 1 1 100%;
+	}
+}
 
 /******************************************************************
                     content
@@ -70,6 +91,13 @@ body{
 	border-radius: 4px;
 }
 
+/* Quando alcança 940px que é a largura do CV */
+@media all and (max-width: 940px) {
+	.bg-container{
+		padding:0;
+	}
+}
+
 /******************************************************************
                     biography
 *******************************************************************/
@@ -82,7 +110,7 @@ body{
 }
 
 .bio{
-	
+
 }
 
 footer{
@@ -92,6 +120,5 @@ footer{
 	height:40px;
 	background-color: #EDEDF4;
 }
-
 
 
