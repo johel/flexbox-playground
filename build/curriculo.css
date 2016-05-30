@@ -1,0 +1,53 @@
+body{
+	font-family: "Proxima Nova",Arial,sans-serif;
+  font-weight: 400;
+}
+
+/******************************************************************
+                    NAVIGATION
+*******************************************************************/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+.flex-nav{
+	/*border:2px solid red;*/
+	padding:10px;
+}
+
+.nav-list{
+	list-style: none;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	/*border:2px solid green;*/
+	
+}
+
+.nav-item{
+	/*display:block;*/
+	-webkit-box-flex:1;
+	    -ms-flex:1;
+	        flex:1;
+	border: 1px solid green;
+}
+
+.nav-item a{
+	color:#064780;
+	-webkit-transition: color 0.2s linear;
+	transition: color 0.2s linear;
+	text-decoration:none;
+}
+
+.nav-item a:hover{
+	color:#0854C7;
+}
+
+
+.bg-container{
+	background-color: #064780;
+	height:100vh;
+}
